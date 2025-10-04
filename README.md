@@ -158,7 +158,3 @@ If you have questions, bug reports, or feature requests, please contact: **mr_ca
 - **Performance**: Uses `ConcurrentHashMap` and `ConcurrentLinkedQueue` for thread safety. Batch scanning and cooldowns minimize impact.
 - **Events**: Listens for entity spawns/despawns, teleports, chunk load/unload, and inventory clicks.
 - **Storage**: Chunk data is cached in `cache.yml` for persistence.
-
-## 📄 License
-
-ChunkAnalyzer is released under the [MIT License]. See `LICENSE` file for details.
