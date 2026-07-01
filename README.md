@@ -2,7 +2,7 @@
 
 # ChunkAnalyzer
 
-**ChunkAnalyzer** is a lightweight and efficient plugin for Minecraft servers running **Spigot/Paper 1.16.x - 1.21.1**. It empowers server administrators to monitor and optimize server performance by analyzing loaded chunks for potential lag sources, such as high entity counts, redstone contraptions, or resource-intensive blocks. Featuring a user-friendly GUI, configurable settings, and multi-language support, ChunkAnalyzer is a must-have tool for maintaining a smooth and lag-free server experience.
+**ChunkAnalyzer** is a lightweight and efficient plugin for Minecraft servers running **Spigot/Paper 1.21.1**. It empowers server administrators to monitor and optimize server performance by analyzing loaded chunks for potential lag sources, such as high entity counts, redstone contraptions, or resource-intensive blocks. Featuring a user-friendly GUI, configurable settings, and multi-language support, ChunkAnalyzer is a must-have tool for maintaining a smooth and lag-free server experience.
 
 ## ✨ Features
 
