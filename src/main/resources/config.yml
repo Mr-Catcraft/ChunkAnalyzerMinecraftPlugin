@@ -5,6 +5,7 @@ messages:
   en:
     player_only: "This command is for players only!"
     usage: "Usage: /ca menu"
+    no_permission: "You do not have permission to use this command."
     teleport: "Teleported to chunk [%s, %s]"
     lag_machine_warning: "Warning: Possible lag machine at [%s, %s]"
     menu_title: "Chunk Analyzer - %d"
@@ -32,6 +33,7 @@ messages:
   ru:
     player_only: "Эта команда только для игроков!"
     usage: "Использование: /ca menu"
+    no_permission: "У вас нет прав на использование этой команды."
     teleport: "Телепортирован в чанк [%s, %s]"
     lag_machine_warning: "Предупреждение: Возможная лаг-машина в [%s, %s]"
     menu_title: "Анализатор чанков - %d"

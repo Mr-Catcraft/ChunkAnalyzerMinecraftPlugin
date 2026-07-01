@@ -1,10 +1,14 @@
 name: ChunkAnalyzer
-version: '1'
+version: '1.0.1'
 main: Core.chunkAnalyzer.ChunkAnalyzer
 api-version: '1.21'
 prefix: ChunkAnalyzer
-authors: [ Mr_Catcraft ]
+authors: [Mr_Catcraft]
 commands:
   ca:
-    description: Открывает меню анализа чанков
+    description: Open Menu
     usage: /ca menu
+permissions:
+  chunkanalyzer.use:
+    description: Allows using /ca menu
+    default: op

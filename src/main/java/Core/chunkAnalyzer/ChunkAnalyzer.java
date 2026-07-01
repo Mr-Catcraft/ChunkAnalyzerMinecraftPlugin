@@ -154,6 +154,11 @@ public class ChunkAnalyzer extends JavaPlugin implements Listener, TabCompleter 
                 sender.sendMessage(getMessage("player_only"));
                 return true;
             }
+            // Проверка разрешения
+            if (!player.hasPermission("chunkanalyzer.use")) {
+                player.sendMessage(getMessage("no_permission"));
+                return true;
+            }
             if (args.length == 0 || !args[0].equalsIgnoreCase("menu")) {
                 sender.sendMessage(getMessage("usage"));
                 return true;
@@ -897,12 +902,12 @@ public class ChunkAnalyzer extends JavaPlugin implements Listener, TabCompleter 
     private record ChunkLocation(String world, int x, int z) {
 
         @Override
-            public boolean equals(Object o) {
-                if (this == o) return true;
-                if (o == null || getClass() != o.getClass()) return false;
-                ChunkLocation that = (ChunkLocation) o;
-                return x == that.x && z == that.z && world.equals(that.world);
-            }
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o == null || getClass() != o.getClass()) return false;
+            ChunkLocation that = (ChunkLocation) o;
+            return x == that.x && z == that.z && world.equals(that.world);
+        }
 
     }
 }
